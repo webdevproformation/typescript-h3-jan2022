@@ -41,3 +41,16 @@ console.log(resultat2?.toUpperCase()) // narrowing
 const resultat3 = formation( 40 );
 
 console.log(resultat3!.toUpperCase()); // sur que resultat3 est de type string => sur à 100%
+
+// https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+
+// cas pratique : créer le fichier 13-exo.ts
+
+// function padLeft(padding: number | string, unite: string): string {
+//  
+//}
+
+// si vous utilisez padLeft(2 , "px")
+// vérifier le type du paramètre padding et retourner un string 
+// si vous utiliser padLeft("2" , "px")
+// vérifier le type du paramètre padding et retourner un string
