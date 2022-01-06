@@ -29,3 +29,5 @@ const liste5 : ListeProduit = [
 ];
 
 // tsc 08-exo.ts
+
+// 09-typage-scalaire-suite.ts
