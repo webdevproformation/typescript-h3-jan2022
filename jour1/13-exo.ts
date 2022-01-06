@@ -14,3 +14,4 @@ padLeft("2" , "px");
 // pause => 15h17
 // pause => assertion de type // typer après avoir typer !! 
 //
+// 14-assertion.ts
