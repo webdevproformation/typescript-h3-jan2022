@@ -31,3 +31,19 @@ console.log(filter(data));
 // système de compabilité entre module COMMONJS et module ES 
 
 // tsc 04-exo.ts --removeComments --target es6 --module umd  && node 04-exo.js
+
+// bon café rdv dans 10h55 bon café @ toute suite !!! 
+
+// Vivian => 
+// .js => par défaut les variables créées dans ces fichiers sont GLOBALES 
+
+import { toto as t } from "./04-exo-suite";
+console.log(t); 
+const toto = "bonjour" ; 
+// tsc 04-exo.ts && node 04-exo.js
+
+// écrit du javascript dans des fichiers .ts 
+// .ts => .js 
+// ajouter des mots clé supplémentaires qui n'existent pas en javascript 
+// mot clé de typescript qui n'existe pas en javascript 
+
