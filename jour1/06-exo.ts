@@ -20,4 +20,12 @@ d = "texte final" ; // erreur qui est déclenchée
 // même si vous avez une erreur tsc va quand même traduire .ts => .js par défaut 
 
 // tsc 06-exo.ts --noEmitOnError 
-// ne pas gérer le fichier .js si il y a une erreur dans le fichier .ts 
+// ne pas gérer le fichier .js si il y a une erreur dans le fichier .ts
+
+// typescriptlang.org
+
+// --noImplicitAny => accepte pas que dans le code typage par inférence il faut que tout soit typé par annotation
+// permet de rendre la manière d'écrire votre typescript plus strict 
+
+const toto : string = "bonjour" ;
+// toto.tata = 20; 
