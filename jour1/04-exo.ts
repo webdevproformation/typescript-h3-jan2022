@@ -47,3 +47,4 @@ const toto = "bonjour" ;
 // ajouter des mots clé supplémentaires qui n'existent pas en javascript 
 // mot clé de typescript qui n'existe pas en javascript 
 
+// 05-first.ts
