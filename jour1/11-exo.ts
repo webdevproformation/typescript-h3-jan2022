@@ -15,3 +15,5 @@ const r3 = dessiner({couleur : "#999" , background : "#123" , position : 120});
 
 console.log(r1, r2, r3) ; 
 // tsc 11-exo.ts && node 11-exo.js
+
+// 12-narrowing.ts
