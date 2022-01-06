@@ -106,7 +106,29 @@ const formation3 : Array<interfaceFormation> = [
     {id : 3 , nom : "react" },
 ]
 
+/**
+ créer le fichier 08-exo.ts 
+ce fichier contient le code  suivant 
+// veuillez les typer les variables suivantes correctement :
 
+// liste1 = "pêche poire ananas";
+// liste2 = ["pêche" , "poire", "ananas"];
+// liste3 = ["pêche", 4, "poire", 3, "ananas" , 2];
+/* liste4 = {
+    items : ["pêche", 4, "poire", 3, "ananas" , 2],
+    budget : 40 ,
+    unite : "euros"
+};*/
+/* liste5 = [
+    {id: 1 , nom : "pêche" , quantite : 4},
+    {id: 2 , nom : "poire" , quantite : 3},
+    {id: 3 , nom : "ananas" , quantite : 2},
+];*/
+
+// faire en sorte que vos variables soient protégées 
+// transformer le fichier .ts en .js
+
+ */
 
 
 
