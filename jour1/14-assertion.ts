@@ -51,4 +51,18 @@ input3.value;
 // repréciser le type d'une variable avec l'avoir déclaré => Element => HTMLInputElement
 // repréciser le type d'une variable avec l'avoir déclaré => number | string => string
 
+// créer le fichier 15-exo.ts 
+// fonction get qui peut retourner soit un string soit objet de type Etudiant {id : number , nom : string }
+
+// cette fonction contient un paramètre de type string 
+// si le nombre de caractère de la fonction est = 0 => retourne string sinon ça retourne l'objet étudiant
+
+// utiliser cette fonction avec les valeurs suivantes : 
+// get("")
+// get("Alain")
+
+// mettre en majuscule le prénom de l'étudiant dans le deux cas 
+
+
+
 
