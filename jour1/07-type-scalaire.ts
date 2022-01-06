@@ -98,13 +98,13 @@ const formation2 : Array<Formation> = [
     {id : 3 , nom : "react" },
 ]
 
-interface interfaceFormation { id : number , nom : string }
+interface interfaceFormation { id : number , nom : string };
 
 const formation3 : Array<interfaceFormation> = [ 
     {id : 1 , nom : "js" },
     {id : 2 , nom : "angular" },
     {id : 3 , nom : "react" },
-]
+];
 
 /**
  créer le fichier 08-exo.ts 
@@ -128,7 +128,7 @@ ce fichier contient le code  suivant
 // faire en sorte que vos variables soient protégées 
 // transformer le fichier .ts en .js
 
- */
+// rdv 13h30 bon appétit => @ toute suite !!
 
 
 
