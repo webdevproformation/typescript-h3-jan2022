@@ -24,3 +24,5 @@ const p2 = new Produit<number , interfacePrix>(20 , {id : 1, prix : 3});
 
 p2.getS()
 p2.getP().prix ; 
+
+// 20-contrainte-genericite.ts
