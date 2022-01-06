@@ -7,6 +7,10 @@ function padLeft(padding: number | string, unite: string): string {
     }
 }
 
-padLeft(2 , "px")
+padLeft(2 , "px");
  
-padLeft("2" , "px")
+padLeft("2" , "px");
+
+// pause => 15h17
+// pause => assertion de type // typer après avoir typer !! 
+//
