@@ -34,5 +34,20 @@ interface interfaceFruit {
 
 retournerPremierElement2<interfaceFruit>([{nom : "b" , couleur : 2 , prix : 1} , {nom : "c" , couleur : 1 , prix :0 }]).prix.toString()
 
+// cas pratique créer le fichier 17-exo.ts
+/** 
+// ce fichier contient une fonction aggregate( )
+// deux paramètres 
+// tableau1 
+// tableau2
+
+// la fonction va concatener le tableau1 et le tableau2 
+// retourner le résultat de la concaténation des deux tableaux 
+
+// Utiliser cette fonction avec les valeurs suivantes 
+
+//["a","b"] , ["c","d"]
+//[1,2] , [3,4,5]
+ */
 
 
