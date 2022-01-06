@@ -14,3 +14,5 @@ console.log((<string>get("") ).toUpperCase());
 
 (get("Alain") as Etudiant).nom.toUpperCase();
 (<Etudiant>get("Alain") ).nom.toUpperCase();
+
+// 16-genericite.ts
