@@ -1,0 +1,18 @@
+tsc --init
+
+    "watch": true,
+    "outDir": "dist",
+    "removeComments": true
+  },
+"include": ["./src/*.ts"]
+
+tsc 
+
+// sur le fichier index.html => exécuter avec live-server
+
+// modifier dans le fichier tsconfig.json
+
+// activer l'option 
+//  "sourceMap": true,  
+
+// permet au navigateur de vous dire Où dans le fichier .ts vous devez modifier  
