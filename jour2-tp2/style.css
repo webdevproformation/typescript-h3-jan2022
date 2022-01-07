@@ -1,0 +1,18 @@
+.container{
+    max-width: 800px;
+    width: 100% ;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+}
+input[type="text"]{
+    padding: 10px 8px;
+    flex-grow:1;
+}
+
+input[type="checkbox"]{
+    margin: 0px 10px;
+}
