@@ -13,14 +13,23 @@
             <h1>utiliser typescript sur un projet web</h1>
         </header>
         <section>
-            <form>
-                <input type="text" name="nom">
-                <input type="number"  name="age">
+            <h2>Formulaire 1</h2>
+            <form class="form1">
+                <input type="text" name="nom" minlength="5" maxlength="250">
+                <input type="number"  name="age" min="0" max="250">
+                <input type="submit">
+            </form>
+            <h2>Formulaire 2</h2>
+            <form class="form2">
+                <input type="text" name="nom" minlength="5" maxlength="250">
+                <input type="number"  name="age" min="0" max="250">
+                <input type="text" name="sujet">
+                <textarea name="commentaire"></textarea>
                 <input type="submit">
             </form>
             <div class="log"></div>
         </section>
     </div>
-    <script src="./dist/script.js"></script>
+    <script src="./dist/script.js" type="module"></script>
 </body>
 </html>

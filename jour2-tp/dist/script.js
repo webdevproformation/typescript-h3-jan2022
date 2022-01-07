@@ -1,18 +1,16 @@
-"use strict";
-var form = document.querySelector("form");
+import { addLog, verif } from "./lib.js";
+const form = document.querySelector("form");
 form.addEventListener("submit", function (e) {
     e.preventDefault();
-    var formulaire = e.target;
-    var formData = new FormData(formulaire);
-    var data = {};
-    formData.forEach(function (el, name) {
-        data[name] = el;
+    const formulaire = e.target;
+    const formData = new FormData(formulaire);
+    let data = {};
+    formData.forEach(function (value, name) {
+        data[name] = value;
     });
-    addLog(data);
-    formulaire.reset();
+    if (verif(data)) {
+        addLog(data);
+        formulaire.reset();
+    }
 });
-function addLog(data) {
-    var div = document.querySelector(".log");
-    div.innerHTML += "<p>".concat(data.nom, " - ").concat(data.age, "</p>");
-}
 //# sourceMappingURL=script.js.map
