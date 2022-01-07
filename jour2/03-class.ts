@@ -108,4 +108,22 @@ class Carre implements Forme{
     }
 }
 
+// cas pratique : créer le fichier 04-exo.ts 
+
+// créer une class abstraite Personnage 
+// 2 propriétés abstraites : nom string / vie number
+// 1 méthode abstraite : frapper () retouner number
+
+// créer un class Guerrier hérité de Personnage
+// créer un class Magicien hérité de Personnage
+
+// ces deux class enfant disposent d'un constructeur qui permet d'initialiser 
+// nom et le vie + force
+
+// ces deux class enfant décrivent la méthode frapper = force * 10 (si guerrier)
+// ces deux class enfant décrivent la méthode frapper = force * 15 (si magicien)
+
+
+
+
 
