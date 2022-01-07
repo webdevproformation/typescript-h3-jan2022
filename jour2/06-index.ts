@@ -3,6 +3,7 @@ const a : string = "hello";
 // un commentaire
 
 // cas pratique : créer un nouveau fichier tsconfig.json 
+// tsc --init
 // dans ce fichier : activer les drapeaux suivants 
 // module umd
 // target esnext
