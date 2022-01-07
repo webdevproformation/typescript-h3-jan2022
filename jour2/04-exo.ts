@@ -1,27 +1,23 @@
 export {}; 
 abstract class Personnage{
-    abstract nom : string ;
-    abstract vie : number ;
+    nom : string ;
+    vie : number ;
+    force : number;
     abstract frapper( adversaire : Personnage) : number ; 
+    constructor(nom , vie , force){
+      this.nom = nom ;
+      this.vie = vie ;
+      this.force = force ;
+    }
     getVie(){
         return this.vie;
     }
-
     setVie(valeur){
         this.vie += valeur ;   
     }
 }
 
 class Guerrier extends Personnage{
-    nom ;
-    vie ;
-    force ;
-    constructor(nom , vie , force){
-      super();
-      this.nom = nom ;
-      this.vie = vie ;
-      this.force = force ;  
-    }
     frapper( adversaire : Personnage ): number {
         adversaire.setVie(- this.force * 10);
         return this.force * 10 ;
@@ -29,15 +25,6 @@ class Guerrier extends Personnage{
 }
 
 class Magicien extends Personnage{
-    nom ; // force les développeurs utilisent la class abstraite 
-    vie ;
-    force ;
-    constructor(nom , vie , force){
-      super();
-      this.nom = nom ;
-      this.vie = vie ;
-      this.force = force ;  
-    }
     frapper( adversaire : Personnage ): number {
         adversaire.setVie(- this.force * 15);
         return this.force * 15 ;
