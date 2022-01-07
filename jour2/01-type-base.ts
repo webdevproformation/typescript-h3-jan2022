@@ -65,7 +65,26 @@ console.log(Role3.admin);  // 0
 console.log(Role3.anonyme);  // 2
 
 
+// cas pratique : créer le fichier 02-exo.ts 
 
+// dans ce fichier vous allez ajouter le code suivant :
+/**
+enum config {
+  root = ".",
+  domaine = "http://localhost" ,
+  port = 3000 ,
+  route = "POST,DELETE,GET,PUT"
+};
+afficher dans la console de Visual Studio Code la liste des routes dans cette variable
+
+créer une fonction qui s'appelle connexionBdd()
+prend 2 paramètres domaine / port les deux de types config
+
+récupérer les valeurs de port et domaine et afficher dans le console le texte suivante
+
+je suis connecté sur la base disponible à l'adresse http://localhost:3000
+
+ */
 
 
 
