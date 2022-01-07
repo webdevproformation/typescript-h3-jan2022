@@ -43,4 +43,4 @@ console.log(guerrier1.getVie()); // 125
 
 // tsc 04-exo.ts && node 04-exo.js
 
-
+// fichier tsconfig.json
