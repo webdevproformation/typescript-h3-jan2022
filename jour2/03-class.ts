@@ -123,7 +123,7 @@ class Carre implements Forme{
 // ces deux class enfant décrivent la méthode frapper = force * 10 (si guerrier)
 // ces deux class enfant décrivent la méthode frapper = force * 15 (si magicien)
 
-
+// transformer le code en js 
 
 
 
