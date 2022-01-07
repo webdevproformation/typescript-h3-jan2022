@@ -16,3 +16,6 @@ tsc
 //  "sourceMap": true,  
 
 // permet au navigateur de vous dire Où dans le fichier .ts vous devez modifier  
+
+// cas pratique ajouter les valeurs du formulaire 2 => ajouter dans la div de fin 
+// réutiliser les deux fonctions et l'interface pour gérer les traitements du formulaire 
