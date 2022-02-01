@@ -53,7 +53,7 @@ interface Todo {
   createdAt: number;
 }
 
-1 récupérer tous les propriétés de Todo sauf createdAt
+1 récupérer toutes les propriétés de Todo sauf createdAt
 2 récupérer uniquement  les propriétés description et completed de Todo et les rendre facultatives
 
 3 une fonction qui retourne soit string soit number soit null 
