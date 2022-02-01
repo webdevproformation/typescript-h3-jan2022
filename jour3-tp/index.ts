@@ -18,3 +18,9 @@ document.querySelector("form").addEventListener("submit" , (e : Event) => {
 
 // cd ../jour3-tp
 // tsc index.ts --lib "ES2015","DOM" --watch --target es6
+
+// rajouter un menu déroulant <select>
+//   <option>afrique</option>
+//    <option>europe</option>
+//</select>
+// quand la valeur est choisie => lance un deuxième filtrage 
