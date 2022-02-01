@@ -11,3 +11,5 @@ type VoitureProp = keyof Voiture2 ;
 type Vehicule = Partial<Voiture2>; 
 
 type VehiculeObligatoire = Required<Voiture2>;
+
+// 05-type-utilitaire-suite.ts
