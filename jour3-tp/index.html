@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            max-width:900px;
+            width:100%;
+            margin: 0 auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        main{
+            display:grid;
+            grid-template-columns: repeat(3 , 1fr );
+            gap : 5px
+        }
+        img{
+            max-width:100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>recherche Pays</h1>
+            <form action="">
+                <input type="text">
+                <input type="submit">
+            </form>
+        </header>
+        <main></main>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
