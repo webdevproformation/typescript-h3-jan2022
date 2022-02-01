@@ -40,11 +40,17 @@ console.log(a.titre);
 
 // zone => formulaire avec un seul champ => saisir un texte + un bouton de soumission
 // zone liste de résultat => https://restcountries.com/
-
+ /*    <article>
+        <img drapeau>
+        <h2>nom pays</h2>
+        <p>nom de la devise </p>
+    </article>
+ */
 // https://restcountries.com/v3.1/all
 
 
 // lorsque vous remplissez le formulaire rechercher dans tous les pages ceux dont le nom du pays contient le texte saisit dans la zone de recherche 
+
 
 // utiliser typescript pour réaliser le code et compiler votre fichier .ts en js via le compilateur tsc 
 
