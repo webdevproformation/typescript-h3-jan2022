@@ -1,10 +1,11 @@
 interface interfaceData{
-    label : string , status ?: string
+    /*label : string , status ?: string*/
+    [key:string]  : string
 }
 (document.querySelector("form") as HTMLFormElement).addEventListener("submit" , function(e :Event){
     e.preventDefault();
     const data = new FormData(this)
-    const values :any = {}
+    let values :interfaceData ;
     for(let [nom, valeur] of data.entries()){
         values[nom] = valeur; 
     }
@@ -18,3 +19,5 @@ function add(data :interfaceData){
         <p>${data.label} - ${(data?.status) ? "finalisé" : "en attente"}</p>
     `;
 }
+
+// l.levesque@h3hitema.fr !!!

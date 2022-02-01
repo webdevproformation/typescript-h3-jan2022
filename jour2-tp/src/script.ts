@@ -4,16 +4,18 @@ const forms = document.querySelectorAll("form")
 forms.forEach( form => {
     form.addEventListener( "submit" , function(e : Event ){
         e.preventDefault(); 
-        const formulaire = e.target as HTMLFormElement ; 
-        const formData =  new FormData( formulaire );
-        let data  : any = {} ; 
-        formData.forEach( function (value, name) {
-            data[name] = value; 
-        } );
-       // console.log(data)
-        if(verif(data)){
-            addLog( data as interfaceData )
-            formulaire.reset();
+        if(e.target  instanceof HTMLFormElement ){
+            const formulaire = e.target  ; 
+            const formData =  new FormData( formulaire );
+            let data :any  = {} ; 
+            formData.forEach( function (value, name) {
+                data[name] = value; 
+            } );
+        // console.log(data)
+            if(verif(data)){
+                addLog( data as interfaceData )
+                formulaire.reset();
+            }
         }
     } )
 }) 
@@ -31,3 +33,7 @@ forms.forEach( form => {
 // cliquer pour soumettre ajouter en dessous du formulaire 
 // libellé / status (coché => realisé / non coché => en attente )
 // réaliser toute la logique via typescript (utiliser le fichier tsconfig et le système de module es6 pour organiser votre code )
+
+
+const one = 1; // 'one' has type: 1
+let num = 1;
