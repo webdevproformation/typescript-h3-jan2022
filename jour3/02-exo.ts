@@ -20,3 +20,5 @@ const chien = {};
 addLeg(chien)
 
 console.log(chien)
+
+// tsc 02-exo.ts && node 02-exo.js
