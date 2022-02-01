@@ -96,6 +96,19 @@ function T(truc = 0){
 const t = T()
 const t1 = new T()
 
+interface Toto{
+    age : string ,
+    role : string
+}
+
+interface Toto2{
+    age : {
+        date : string ;
+        naissance : Date ;
+    } ;
+    role : string  ;
+}
+
 // cas pratique :
 // dans le dossier jour3 créer le fichier 02-exo.ts 
 
@@ -104,3 +117,5 @@ const t1 = new T()
 // }
 
 // utiliser deux techniques de narrowing pour que cette fonction ne déclenche pas d'erreur dans typescript 
+// cd jour3
+// tsc 01-narrowing.ts && node 01-narrowing.js 
