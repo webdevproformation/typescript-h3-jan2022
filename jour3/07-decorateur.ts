@@ -62,3 +62,11 @@ class B{
 
 // concurrent extends 
 // factory 
+
+// cas pratique créer le fichier 08-exo.ts 
+
+// créer une fonction décoratrice qui permet de exécuter une class Etudiant
+
+// une fois que cette class est exécutée via la fonction décoratrice =>
+// utiliser une méthode de cette class qui s'appelle information et qui retourne le chiffre 20
+

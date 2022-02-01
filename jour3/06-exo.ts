@@ -17,3 +17,6 @@ const c = calcul()
 type calculSansNull = Exclude<typeof c , null>
 
 // décorateur 
+
+
+
