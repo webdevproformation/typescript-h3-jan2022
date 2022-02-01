@@ -133,8 +133,8 @@ interface Voiture2 {
 
 //1  récupérer toutes les propriétés de l'interface Voiture2 dans une autre interface VoitureProp
 
-// 2 créer un interface qui possède toutes les propriétés de Voiture2 qui sont facultatives Vehicule
+// 2 créer une interface qui possède toutes les propriétés de Voiture2 qui sont facultatives Vehicule
 
-// 3 créer un interface qui possède toutes les propriétés de Voiture2 qui soient obligatoires 
+// 3 créer une interface qui possède toutes les propriétés de Voiture2 qui soient obligatoires 
  */
 
