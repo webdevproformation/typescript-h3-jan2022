@@ -60,3 +60,66 @@ console.log(voiture.marque)
 // npm install -g ts-node
 // tsc --init
 
+interface Voiture2 {
+    marque ?: string,
+    annee : number,
+    autreProp : boolean
+}
+
+type Vehicule = Partial<Voiture2>
+
+// type Partial<T> = { [P in keyof T]?: T[P]; }
+
+interface ObjInfinie{
+    [ key : string ] : any ; // interface qui a un nombre de propriété infinie 
+}
+
+const animation : ObjInfinie = { 
+    prop1 : "slide",
+    prop2 : "1000ms",
+    delay : "1000ms",
+    color : 100,
+    "0" : 0
+}
+
+interface ObjInfinieG<T>{ // interface qui a un nombre de propriété infinie générique (définir le type de T au moment de on utilisation)
+    [ key : string ] : T ;
+} 
+
+const diaporama : ObjInfinieG<number> = {
+    prop1 : 10,
+    prop2 : 20,
+    prop3 : 30
+}
+
+const diaporama2 : ObjInfinieG<Array<number> | string> = {
+    prop1 : [10],
+    prop2 : "hello",
+    prop3 : [30]
+}
+
+const toto1 = {
+    age : 10
+}
+
+toto1["taille"] = 20
+
+
+const fourniture  = {
+    nom : "Papier",
+    format : "A4",
+    prix : 10
+} 
+
+// typeof 
+
+type interfaceFourniture = Partial<typeof fourniture>
+
+
+type interfacePropFourniture = keyof interfaceFourniture ; 
+// "nom" | "format" | "prix"
+
+// permet de récupérer les props d'une interface 
+
+
+
