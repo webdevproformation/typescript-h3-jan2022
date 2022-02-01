@@ -15,3 +15,5 @@ function calcul() : string | number | Todo | null{
 const c = calcul()
 
 type calculSansNull = Exclude<typeof c , null>
+
+// décorateur 
