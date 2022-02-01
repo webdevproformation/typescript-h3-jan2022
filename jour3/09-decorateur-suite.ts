@@ -35,7 +35,7 @@ console.log(a.titre);
 
 
 // cas pratique 
-//créer un nouveau dossier jour3-tp 
+// créer un nouveau dossier jour3-tp 
 // index.html 
 
 // zone => formulaire avec un seul champ => saisir un texte + un bouton de soumission
@@ -50,7 +50,6 @@ console.log(a.titre);
 
 
 // lorsque vous remplissez le formulaire rechercher dans tous les pages ceux dont le nom du pays contient le texte saisit dans la zone de recherche 
-
 
 // utiliser typescript pour réaliser le code et compiler votre fichier .ts en js via le compilateur tsc 
 
