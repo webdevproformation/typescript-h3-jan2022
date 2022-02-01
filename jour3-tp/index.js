@@ -12,12 +12,19 @@ let data;
 document.addEventListener("DOMContentLoaded", () => __awaiter(void 0, void 0, void 0, function* () {
     const reponse = yield fetch("https://restcountries.com/v3.1/all");
     data = (yield reponse.json());
+    const regions = new Set();
+    let html = "";
+    data.forEach(pays => regions.add(pays.region));
+    regions.forEach(region => html += `<option>${region}</option>`);
+    document.querySelector("select").innerHTML = html;
     render(data);
 }));
 document.querySelector("form").addEventListener("submit", (e) => {
     e.preventDefault();
     const input = document.querySelector("input[type='text']");
-    const listePaysFiltre = data.filter(pays => pays.name.common.toLowerCase().includes(input.value.toLowerCase()));
+    const select = document.querySelector("select");
+    console.log(select.value);
+    const listePaysFiltre = data.filter(pays => pays.name.common.toLowerCase().includes(input.value.toLowerCase() && pays.region == select.value));
     render(listePaysFiltre);
 });
 // cd ../jour3-tp

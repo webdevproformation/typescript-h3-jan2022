@@ -25,3 +25,12 @@ var troisieme = jours[2] */
 
 const [ , deuxiemeJour] = jours ;
 console.log(deuxiemeJour);
+
+const aaa = ["a" , "b" , "c" , "a" ];
+
+const bbbb = new Set( "a"   );
+bbbb.add("b")
+bbbb.add("b")
+bbbb.add("a")
+bbbb.add("c")
+console.log(bbbb)
