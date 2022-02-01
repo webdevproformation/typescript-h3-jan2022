@@ -95,3 +95,12 @@ function T(truc = 0){
 
 const t = T()
 const t1 = new T()
+
+// cas pratique :
+// dans le dossier jour3 créer le fichier 02-exo.ts 
+
+// function addLeg(animal: Animal) {
+//  animal.legs = animal.legs + 1; // 💥 - Object is possibly 'undefined'
+// }
+
+// utiliser deux techniques de narrowing pour que cette fonction ne déclenche pas d'erreur dans typescript 
