@@ -39,3 +39,23 @@ function calcul () : string | null {
 const resultat2 = calcul ();
 
 type resultat = Exclude<typeof resultat2, null>
+
+// cas pratique :
+
+// créer le fichier 06-exo.ts 
+
+// dans ce fichier vous avez le type suivant :
+/**
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+  createdAt: number;
+}
+
+1 récupérer tous les propriétés de Todo sauf createdAt
+2 récupérer uniquement  les propriétés description et completed de Todo et les rendre facultatives
+
+3 une fonction qui retourne soit string soit number soit null 
+utiliser le type Utilitaire Exclude pour limiter le type de cette fonction uniquement que string et  number
+*/
